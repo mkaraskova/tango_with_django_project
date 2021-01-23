@@ -4,5 +4,5 @@ from about import views
 app_name = 'rango'
 
 urlpatterns = [
-    path('', about_views.about, name='about'),
+    path('', views.about, name='about'),
 ]
